@@ -1,0 +1,127 @@
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+div#general1{
+	width: 1337px;
+	height: 250px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: white;
+}
+
+div#menu{
+	width: 1337px;
+	height: 50px;
+	margin-top: 5px;
+	background-color: #006680;
+	font-family: verdana;
+
+}
+div#general2{
+	width: 850px;	
+	height: 850px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+}
+
+div#twitter{
+	width:350px;
+	height:400px;
+    float:right;
+	background-color: white;
+	overflow: auto;
+}
+
+div#edicion{
+	width: 870px;
+	height: 800px;
+	background-color: #E6E6E6;
+	border: 1px solid black;
+	padding: 8px;
+}
+
+
+div#contador{
+	width: 200px;
+	height: 100px;
+	margin: auto;
+	background-color: white;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+
+#menu li a {
+	background-color:  #006680;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+#menu li a:hover{
+	background-color: #808080;
+}
+
+#menu  li {
+	position: relative;
+	float: left;
+}
+
+#menu li ul{
+	display:none;
+	position: absolute;
+	min-width: 140px;
+}
+
+#menu li:hover > ul{
+    display: block;
+
+}
+
+body {
+	font-family: verdana;
+	background: #FFFFFF;
+	color: #1883ba;
+	font-size: 1em;
+}
+
+h1
+{
+	color: #000000;
+	margin: 0.10em auto;
+	text-align: right;
+
+}
+
+header
+{
+	background: #FFFFFF;
+	border-radius: 0,5em;
+	margin: 0,5em;
+	max-width: 900px;
+	padding: 0,25;
+	text-align: right;
+}
+
+
+div#footer{
+	background: #006680;
+	width: 1336px;
+	height: 85px;
+	border: 2px solid #000000;
+	
+}
+
+h3
+{
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 0.9em;
+	
+}
